@@ -12,7 +12,8 @@ a {
 /* colour variables */
 :root {
   --bg-color-main: #1f2937;
-  --bg-color-secondary: #f9faf8;
+  --bg-color-secondary: #fff;
+  --bg-color-tertiary: #e5e7eb;
   --font-color-main: #f9faf8;
   --font-color-secondary: #b5b7bd;
   --cta-color-primary: #4e80ee;
@@ -37,7 +38,11 @@ body {
 }
 
 .full-width.bg-secondary {
-  background-color: #fff;
+  background-color: var(--bg-color-secondary);
+}
+
+.full-width.bg-tertiary {
+  background-color: var(--bg-color-tertiary);
 }
 
 .mw-1024 {
@@ -143,4 +148,22 @@ nav a {
 .carousell-figure img {
   border: 4px solid var(--cta-color-primary);
   border-radius: 1.5rem;
+}
+
+.customer-quote {
+  margin: 100px 0;
+  max-width: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: var(--bg-color-main);
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
 }
