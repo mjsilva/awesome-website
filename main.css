@@ -150,6 +150,8 @@ nav a {
   border-radius: 1.5rem;
 }
 
+/* customer quote */
+
 .customer-quote {
   margin: 100px 0;
   max-width: 800px;
@@ -166,4 +168,32 @@ nav a {
   text-align: right;
   font-size: 24px;
   font-weight: 700;
+}
+
+/* call to action */
+
+.cta .box {
+  display: flex;
+  background-color: #4e80ee;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin: 100px;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.cta h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.cta p {
+  color: #b4c6ea;
+}
+
+.cta .bto {
+  background-color: var(--cta-color-primary);
+  border: 1px solid #fff;
+  flex-shrink: 0;
 }
